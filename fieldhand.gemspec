@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.files = %w[README.md LICENSE] + Dir['lib/**/*.rb']
   s.test_files = Dir['spec/**/*.rb']
 
-  s.add_dependency('ox', '~> 2.5')
+  s.add_dependency('ox', '~> 2.14')
   s.add_development_dependency('rspec', '~> 3.6')
   s.add_development_dependency('webmock', '~> 1.21', '< 1.22')
   s.add_development_dependency('addressable', '~> 2.3', '< 2.4')
